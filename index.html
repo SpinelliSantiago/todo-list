@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Tareas</title>
+</head>
+<body>
+    <div class="caption">
+        <div class="title">
+            <h1>Lista de tareas</h1>
+            <i class="ri-checkbox-circle-line"></i>
+        </div>
+
+        <h2>Planifica tus tareas y alcanza tus objetivos</h2>
+    </div>
+
+    <main class="container">
+        <div class="left_side">
+            <div class="new_task">
+                <h3>Que tenes en mente?</h3>
+
+                <div class="task_input">
+                    <input id="task_input" type="text" placeholder="Escribi tu tarea aca">
+                    <button id="add_task">Agregar</button>
+                </div>
+
+            </div>
+
+            <div class="tasks">
+                <div class="tasks_header">
+                    <h3>Tareas</h3>
+                </div>
+
+                <div class="tasks_list"> 
+                    <!--
+                    <div class="tasks_items">
+                        <div class="tasks_left">
+                            <i class="ri-checkbox-blank-circle-line"></i>
+                            <p>Entrenar espalda</p>
+                        </div>
+
+                        <div class="tasks_icons">
+                            <i class="ri-delete-bin-line"></i>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    
+    <div class="modal">
+        <div class="modal_form_content">
+            <i class="ri-close-circle-fill"></i>
+            <h3>
+                Estas seguro?
+            </h3>
+            <p>
+                ¡ESTA TAREA SERA ELIMINADA!
+            </p>
+            <button class="close_modal_delete">BORRAR</button>
+            <button class="close_modal_cancel">CANCELAR</button>
+        </div>
+    </div>
+    </main>
+
+</body>
+</html>
